@@ -12,5 +12,5 @@ Embark on a journey to understand and manage your digital habits with screentime
 
 ## Demo
 
-Insert gif or link to demo
+https://screentimecalc.netlify.app
 
