@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Screen Time Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Screen Time Calculator</h1>
+      <hr />
+      <div class="input-container">
+        <label for="average-time">Enter Average Screen Time (in hours): </label>
+        <input type="number" id="average-time" min="0" /> <br />
+        <label for="average-life">Enter Average Lifespan (in years): </label>
+        <input type="number" id="average-life" min="0" />
+
+        <button onclick="calculateTime()">Calculate</button>
+      </div>
+
+      <div id="result-container" class="box">
+        <h2>Total Time Spent on Phone Screen</h2>
+        <p id="result-days">Days: 0</p>
+        <p id="result-hours">Hours: 0</p>
+        <p id="result-minutes">Minutes: 0</p>
+        <p id="result-lifespan1"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
