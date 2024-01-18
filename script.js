@@ -20,7 +20,7 @@ function calculateTime() {
       averageLifespan1 +
       " years out of " +
       Lifespan +
-      " years according to the data provided by you";
+      " years on your phone screen according to the data provided by you";
     document.getElementById("result-container").style.display = "block";
   } else {
     alert("Please enter the average screen time and lifespan.");
